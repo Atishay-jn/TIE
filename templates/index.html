@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Insurance Experts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='fonts/icomoon/style.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/owl.theme.default.min.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap-datepicker.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='fonts/flaticon/font/flaticon.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/aos.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/rangeslider.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-2 bg-white" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">The_Insurance_Experts</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="home"><span>Home</span></a></li>
+                <li><a href="about"><span>About</span></a></li>
+                <li><a href="contact"><span>Contact</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(static/images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-10">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 data-aos="fade-up">The Insurance <span class="typed-words"></span></h1>
+                <p data-aos="fade-up" data-aos-delay="100">Let us quote you happy!</p>
+              </div>
+            </div>
+
+            <div class="form-search-wrap p-2" data-aos="fade-up" data-aos-delay="200">
+              <form action="/home" method="POST">
+                <div class="row align-items-center">
+                  <div class="col-lg-12 col-xl-4 no-sm-border border-right">
+                    <input type="email" class="form-control" placeholder="Email ID" name="Email">
+                  </div>
+                  <div class="col-lg-12 col-xl-3 no-sm-border border-right">
+                    <div class="wrap-icon">
+                      <span class="icon icon-room"></span>
+                      <input type="text" class="form-control" placeholder="Location" name="Location">
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-12 col-xl-3">
+                    <div class="select-wrap">
+                      <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
+                      <select class="form-control" name="Type" id="">
+                        <option value="All Categories">All Categories</option>
+                        <option value="Fire Insurance">Fire</option>
+                        <option value="Health Insurance">Health</option>
+                        <option value="Travel Insurance">Travel</option>
+                        <option value="Marine Insurance">Marine</option>
+                        <option value="Liability Insurance">Liability</option>
+                        <option value="Motor Insurance">Motor</option>
+                        <option value="Others">Others</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-2 ml-auto text-right">
+                    <input type="submit" class="btn btn-primary" value="Submit" name="quick_info">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Popular Categories</h2>
+            <p class="color-black-opacity-5">Some of the insurances we excel at</p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-fire-extinguisher"></span></span>
+              <span class="caption mb-2 d-block">Fire &nbsp Insurance</span>
+              <span class="number">187</span>
+            </a>
+          </div>
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-home"></span></span>
+              <span class="caption mb-2 d-block">Home &nbsp Insurance</span>
+              <span class="number">306</span>
+            </a>
+          </div>
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-ship"></span></span>
+              <span class="caption mb-2 d-block">Marine Insurance</span>
+              <span class="number">118</span>
+            </a>
+          </div>
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-plane"></span></span>
+              <span class="caption mb-2 d-block">Travel Insurance</span>
+              <span class="number">885</span>
+            </a>
+          </div>
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-car"></span></span>
+              <span class="caption mb-2 d-block">Car &nbsp &nbspInsurance</span>
+              <span class="number">2,226</span>
+            </a>
+          </div>
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-road"></span></span>
+              <span class="caption mb-2 d-block">Term<br>Plans</span>
+              <span class="number">84</span>
+            </a>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+         <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon"><span class="icon-gavel2"></span></span>
+              <span class="caption mb-2 d-block">Indemnity Covers</span>
+              <span class="number">21</span>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon"><span class="icon-healing"></span></span>
+              <span class="caption mb-2 d-block">Health Insurance</span>
+              <span class="number">640</span>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-building"></span></span>
+              <span class="caption mb-2 d-block">Commercial General Liability</span>
+              <span class="number">45</span>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-users"></span></span>
+              <span class="caption mb-2 d-block">Directors & Officers Liability</span>
+              <span class="number">9</span>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-inr"></span></span>
+              <span class="caption mb-2 d-block">Jeweller<br>Block<br>Policies</span>
+              <span class="number">13</span>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-10">
+              <span class="icon"><span class="icon-local_convenience_store"></span></span>
+              <span class="caption mb-2 d-block">Trade Protection Covers</span>
+              <span class="number">127</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+	  
+    <div class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="static/images/img_1.png" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 ml-auto">
+            <h2 class="text-primary mb-3">Why Us</h2>
+            <p>
+            	The Insurance Experts has a vision of simplifying the whole process of insurance purchases & claim settlements in the most transparent & clear cut ways.<br>
+            	Most of us don't want to go through 16-17 pages of insurance documentation highlighting what is covered & what's not. We make sure that you get all that sorted in simple bullet points & you don't need to reach out to anyone at the time of claim.<br>
+            	Some of our specialties include:
+            </p>
+            <ul class="ul-check list-unstyled success">
+              <li>24*7 claim support team.</li>
+              <li>Under 12 hours of revert time.</li>
+              <li>Tie up with over 15 insurance companies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section bg-light">
+      <div class="container">
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Testimonials</h2>
+          </div>
+        </div>
+        <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="static/images/Deepak.jpeg" alt="Image" class="img-fluid mb-3">
+                <p>Deepak Goel (OYO)</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo; I have been taking insurance from Vinay for the last couple of years and haven't faced any issues whatsoever. He is extremely helpful and also sends timely reminders for insurance renewal so that I never miss a date.  &rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="static/images/Kunal.jpeg" alt="Image" class="img-fluid mb-3">
+                <p>Kunaal Behani (Ventino Windows)</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;The Insurance Experts have highly competitive rates as well as in-depth knowledge on the subject. The support they provided us claim settlement of a device was commendable.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="static/images/Himanshu-Bansal.jpg" alt="Image" class="img-fluid mb-3">
+                <p>Himanshu Bansal (Right Advisors)</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;As we are a manpower solutions company, we need insurance on a daily basis; and there's literally no one better for it all than Vinay and Shivani. They go out of the way so many times to serve us.<br> Kudos to the team!&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="static/images/person_5.jpeg" alt="Image" class="img-fluid mb-3">
+                <p>Dr. Navin Futela (Orthodontist)</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;The one best thing of The Insurance Experts is their after sales support. I just could not believe at the time. When my sister was in hospital and The Insurance Experts came in rescue even when we didn't purchase a policy through them. They are the rising stars of insurance industry. True sales people.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Frequently Ask Question</h2>
+            <p class="color-black-opacity-5">Expert answers to FAQs</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">Weather Act of God is covered in fire policy or not?</a>
+
+              <div class="collapse" id="collapse-1">
+                <div class="pt-2">
+                  <p class="mb-0">Yes, Fire Policy covers everything today. All kinds of Acts of God are covered. No matter what.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Have the fire insurance rates been revised from 1st January 2020 by IRDA?</a>
+
+              <div class="collapse" id="collapse-4">
+                <div class="pt-2">
+                  <p class="mb-0">Yes, the General Insurance Corporation of India along with Insurance Information Bureau of India, have release the circular for revision in prices. Because most of the risks were written by insuring companies at below par prices.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Is home Insurance expensive?</a>
+
+              <div class="collapse" id="collapse-2">
+                <div class="pt-2">
+                  <p class="mb-0">That’s a funny thing, it’s as cheap as 500 Rs monthly for upto 1 cr of sum insured. The best part is , if taken for long period of 10 years, price reduces to 300 Rs per month.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border p-3 rounded mb-2">
+              <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">Does the Insurance company matter?</a>
+              <div class="collapse" id="collapse-3">
+                <div class="pt-2">
+                  <p class="mb-0">A deep dive into insurance companies would tell you that what truly matters is the insurance policy's terms and conditions. As long as you trust the prime insurer whom you are purchasing the policy from, The Insurance Experts is just a means to an end - a facilitator that is here to make the process of insurance hassle-free for you.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about">About Us</a></li>
+                  <li><a href="contact">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about">About Us</a></li>
+                  <li><a href="contact">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="https://www.facebook.com/The-Insurance-Experts-190415641532934/" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="https://www.linkedin.com/in/vinay-jain-852b0b134/" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="static/js/jquery-3.3.1.min.js"></script>
+  <script src="static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="static/js/jquery-ui.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.stellar.min.js"></script>
+  <script src="static/js/jquery.countdown.min.js"></script>
+  <script src="static/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/js/bootstrap-datepicker.min.js"></script>
+  <script src="static/js/aos.js"></script>
+  <script src="static/js/rangeslider.min.js"></script>
+  
+  <script src="static/js/typed.js"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Advisors","Brokers","Consultants","Devotees", "Experts"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 500,
+            loop: false,
+            showCursor: true
+            });
+            </script>
+
+  <script src="static/js/main.js"></script>
+  </body>
+</html>
