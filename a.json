@@ -1,8 +1,8 @@
 {
     "type": "service_account",
     "project_id": "e-cell-249109",
-    "private_key_id": "a8ac5afe1bea3cb3a1905a23d99cb870577ed53e",
-    "private_key": "-----BEGIN PRIVATE KEY-----\n(key)\n-----END PRIVATE KEY-----\n",
+    "private_key_id": "(private key id)",
+    "private_key": "-----BEGIN PRIVATE KEY-----\n(Private key here)\n-----END PRIVATE KEY-----\n",
     "client_email": "gkjklj@e-cell-249109.iam.gserviceaccount.com",
     "client_id": "109760607184787161446",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
